@@ -1,0 +1,15 @@
+.headNav {
+    background-color: orange;
+    margin-top: 0.5%;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.navLogo {
+margin-top: 0.5%;
+width: 20px;
+height: 20px;
+background-color: orange;
+}
