@@ -5,23 +5,29 @@ import navLogo from '../Image/navLogo.png';
 
 const Header = () => {
     return (
-        <Container>
+        <>
+            <div className='mainDiv'>
             <div className='headNav'>Free Courses 🌟 Sale Ends Soon, Get It Now</div>
-        <Nav
+        <Nav className='mt-1 navStyle'
             >
+               <Nav>
+          <NavItem>
                 <div className='navLogo'>
-                <img src={navLogo} alt="navLogo" className="w-100" />
-                </div>
+                <img src={navLogo} alt="navLogo" className="imgLogo" />
+                    </div>
+         </NavItem>
           <NavItem>
             <NavLink
-              active
+              disabled
               href="#"
             >
               Home
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#">
+            <NavLink
+            disabled
+             href="#">
             Courses
             </NavLink>
           </NavItem>
@@ -48,10 +54,28 @@ const Header = () => {
             >
              Contact
             </NavLink>
+                </NavItem>
+                </Nav> 
+                <Nav>
+                <NavItem>
+            <NavLink
+              disabled
+              href="#"
+            >
+             Sign Up
+            </NavLink>
           </NavItem>
-            </Nav>
-            </Container>
-    
+          <NavItem >
+            <NavLink className='nav-login'
+              href="#"
+            >
+             Login
+            </NavLink>
+                </NavItem>  
+                </Nav>
+        </Nav>
+        </div>
+    </>
     );
 };
 

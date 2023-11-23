@@ -1,3 +1,7 @@
+.mainDiv {
+    margin: 10px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
 .headNav {
     background-color: orange;
     margin-top: 0.5%;
@@ -7,9 +11,32 @@
     font-size: 18px;
     font-family: 'Be Vietnam Pro', sans-serif;
 }
+
 .navLogo {
-margin-top: 0.5%;
-width: 20px;
-height: 20px;
+font-size: 18px;
+margin-top: 8px;
+border-radius: 5px;
 background-color: orange;
+width: 30px;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.navStyle{
+    justify-content: space-around;
+    font-size: 18px;
+    
+}
+.imgLogo {
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+    
+}
+.nav-login{
+    color: white !important;
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 5px;
 }
