@@ -14,7 +14,7 @@
 
 .navLogo {
 font-size: 18px;
-margin-top: 8px;
+margin-top: 5px;
 border-radius: 5px;
 background-color: orange;
 width: 30px;
@@ -29,8 +29,8 @@ justify-content: center;
     
 }
 .imgLogo {
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 23px;
     padding: 1px;
     
 }

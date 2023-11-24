@@ -1,0 +1,29 @@
+.first-div{
+    margin: auto;
+    margin-top: 5%;
+}
+.div-second{
+    justify-content: center;
+    align-items: center;
+    background-color: #FCFCFD;
+    width: 850px;
+    height: 70px;
+    margin: auto;
+    border-radius: 5px;
+}
+.first-txt{
+    font-size: 48px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: bold;
+    color: #262626;
+}
+span { 
+    color:orange;
+    
+}
+.homeLogo{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
