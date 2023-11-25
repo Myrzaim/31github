@@ -1,17 +1,19 @@
 .first-div{
     margin: auto;
     margin-top: 5%;
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 .div-second{
     justify-content: center;
     align-items: center;
     background-color: #FCFCFD;
     width: 850px;
-    height: 70px;
+    height: 60px;
     margin: auto;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .first-txt{
+    margin-top: 10px;
     font-size: 48px;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: bold;
@@ -26,4 +28,20 @@ span {
     height: 50px;
     margin-right: 20px;
     margin-bottom: 10px;
+    margin-top: 10px;
+}
+.third-div{
+    text-align: center;
+    font-size: 38px;
+    font-weight: medium;
+    width: 850px;
+    height: 60px;
+    margin: auto;
+    color: #262626;
+}
+Button{
+    margin-top: 10px;
+    font-size: 28px!important;
+    border-radius: 10px;
+    color: #262626 !important;
 }
