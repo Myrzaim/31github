@@ -40,8 +40,23 @@ span {
     color: #262626;
 }
 Button{
+    margin-top: 50px !important;
+    background-color: #FF9500 !important;
     margin-top: 10px;
-    font-size: 28px!important;
+    font-size: 18px!important;
     border-radius: 10px;
     color: #262626 !important;
+    color: white !important;
+    padding: 20px !important;
+    border: none !important;
+}
+.button-white{
+    background-color: #FCFCFD !important;
+    color: #262626 !important;
+}
+.div-list{
+     position: absolute;
+    background-color: #FF9500;
+    margin-top: 300px;
+    margin-left: 25%;
 }
