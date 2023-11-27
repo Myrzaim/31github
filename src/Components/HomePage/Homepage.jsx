@@ -5,6 +5,12 @@ import homelogo from '../Image/homelogo.png';
 import { Button } from 'reactstrap';
 import { ListGroup, ListGroupItem } from 'reactstrap';
 import Logo from '../Image/Logo.png';
+import Logo1 from '../Image/Logo1.png';
+import Logo2 from '../Image/Logo2.png';
+import Logo3 from '../Image/Logo3.png';
+import Logo4 from '../Image/Logo4.png';
+import Logo5 from '../Image/Logo5.png';
+import Logo6 from '../Image/Logo6.png';
 
 const homepage = () => {
     return (<>
@@ -25,38 +31,52 @@ const homepage = () => {
   </Button>   
             </div>
             <div className='div-list'>
-            <ListGroup horizontal>
+            <ListGroup horizontal  >
     <ListGroupItem
       href="#"
       tag="a"
     >
-      <img src = {Logo}></img>
+      <img src = {Logo} className='list-group'></img>
+            </ListGroupItem>
+            <ListGroupItem
+      href="#"
+      tag="a"
+    >
+      <img src = {Logo6}  className='list-group'></img>
     </ListGroupItem>
     <ListGroupItem
       href="#"
       tag="a"
     >
-      Dapibus ac facilisis in
+      <img src = {Logo1}  className='list-group'></img>
+            </ListGroupItem>
+            
+    <ListGroupItem
+      href="#"
+      tag="a"
+    >
+      <img src = {Logo2}  className='list-group'></img>
     </ListGroupItem>
     <ListGroupItem
       href="#"
       tag="a"
     >
-      Morbi leo risus
+      <img src = {Logo3}  className='list-group'></img>
     </ListGroupItem>
     <ListGroupItem
       href="#"
       tag="a"
     >
-      Porta ac consectetur ac
-    </ListGroupItem>
-    <ListGroupItem
+      <img src = {Logo4}  className='list-group'></img>
+            </ListGroupItem>
+            <ListGroupItem
       href="#"
       tag="a"
     >
-      Vestibulum at eros
+      <img src = {Logo5}  className='list-group'></img>
     </ListGroupItem>
   </ListGroup> 
+  
             </div>
         </div>
         </> );
