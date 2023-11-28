@@ -11,6 +11,7 @@ import Logo3 from '../Image/Logo3.png';
 import Logo4 from '../Image/Logo4.png';
 import Logo5 from '../Image/Logo5.png';
 import Logo6 from '../Image/Logo6.png';
+import mainimg from '../Image/mainimg.png';
 
 const homepage = () => {
     return (<>
@@ -19,7 +20,7 @@ const homepage = () => {
             <div className='d-flex div-second'>
                 <img src={homelogo} alt="homeLogo" className="homeLogo" />
                 <p className='first-txt'><span>Unlock</span> Your Creative Potential</p>
-            </div>
+            </div></div>
            <div className='third-div'>
                 <p>with Online Design and Development</p>
                 <p> Courses.</p>
@@ -77,8 +78,22 @@ const homepage = () => {
     </ListGroupItem>
   </ListGroup> 
   
-            </div>
         </div>
+        <div className='main-img'>
+          <img src={mainimg}  />
+      </div>
+      
+      <div className='txt-benefits'>
+        <div><h1>Benefits</h1>
+        <p>Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum <br/> eget habitasse in velit fringilla feugiat senectus in.</p>
+        </div>
+        <div>
+          <Button className='button-white btn-view'>
+            View All
+          </Button>
+        </div> 
+      </div>
+     
         </> );
 };
 

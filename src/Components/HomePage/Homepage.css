@@ -2,6 +2,7 @@
     margin: auto;
     margin-top: 5%;
     font-family: 'Be Vietnam Pro', sans-serif;
+    display: block;
 }
 .div-second{
     justify-content: center;
@@ -31,11 +32,12 @@ span {
     margin-top: 10px;
 }
 .third-div{
+    display: block;
     text-align: center;
     font-size: 38px;
     font-weight: medium;
     width: 850px;
-    height: 60px;
+    height: 50px;
     margin: auto;
     color: #262626;
 }
@@ -55,12 +57,35 @@ Button{
     color: #262626 !important;
 }
 .div-list{
-     position: absolute;
     margin-top: 300px;
-    margin-left: 10%;
     border: none;
     border-radius: 10px;
+   margin-left: 7%;
 }
 .list-group{
 padding: 50px;
+margin: auto;
+}
+.main-img{
+    text-align: center;
+}
+.txt-benefits {
+    width: 83%;
+    margin-left: 8%;
+    /* width: fit-content; */
+    /* margin-top: 5%;
+    margin-left: 8%;
+    margin-right: 8%; */
+    display: flex;
+    justify-content: space-between !important;
+    align-items: baseline;
+}
+.txt-benefits h1{
+    font-weight: 600;
+    font-size: 48px;
+}
+.btn-view{
+    color: #262626;
+    font-weight: 700!important;
+    font-size: 18px;
 }
