@@ -12,6 +12,7 @@ import Logo4 from '../Image/Logo4.png';
 import Logo5 from '../Image/Logo5.png';
 import Logo6 from '../Image/Logo6.png';
 import mainimg from '../Image/mainimg.png';
+import Kart from '../Kart/Kart';
 
 const homepage = () => {
     return (<>
@@ -93,7 +94,11 @@ const homepage = () => {
           </Button>
         </div> 
       </div>
-     
+      <div className='kart d-flex'>
+        <Kart />
+        <Kart />
+        <Kart />
+      </div>
         </> );
 };
 

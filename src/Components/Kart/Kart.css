@@ -1,0 +1,20 @@
+.btn1{
+text-align: end;
+background-color: #FCFCFD !important;
+margin-top: 0% !important ;
+}
+.kart-num{
+    text-align: end;
+    font-size:80px;
+    margin-bottom: 10%;
+    font-weight: bold;
+}
+.kart-txt{
+    margin-left: 7%;
+    font-size: 18px;
+}
+.title{
+    font-size: 24px;
+    margin-left: 7%;
+}
+
