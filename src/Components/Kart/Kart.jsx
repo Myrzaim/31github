@@ -2,10 +2,8 @@ import React, { useContext } from 'react';
 import './Kart.css';
 import { Card, CardTitle,CardText, Button } from 'reactstrap';
 import kartbtn from '../Image/kart-btn.png';
-import { courseContext } from '../../Context/CourseContextProvider';
 
 const Kart = ({ obj }) => {
-  const {readCourses} = useContext(courseContext)
     return (
        <>
 <div>
@@ -17,13 +15,13 @@ const Kart = ({ obj }) => {
     }}
   >
     <CardTitle className='kart-num' tag="h1">
-      01
+      {obj.id}
             </CardTitle>
             <CardTitle className='title' tag="h5">
-            Flexible Learning Schedule
+            {obj.title}
     </CardTitle>
     <CardText className='kart-txt'>
-    Fit your coursework around your existing commitments and obligations
+    {obj.info}
     </CardText>
             <Button className='btn1'>
               <img src={kartbtn}></img>

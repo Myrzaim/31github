@@ -1,11 +1,13 @@
-import './App.css';
-import Homepage from './Components/HomePage/Homepage';
-import CourseContextProvider from './Context/CourseContextProvider';
+import "./App.css";
+// import MainRoutes from "./MainRoutes";
+import Homepage from "./Components/HomePage/Homepage";
+import CourseContextProvider from "./Context/CourseContextProvider";
 
 function App() {
-  return (<>
-    <CourseContextProvider>
-      <Homepage />
+  return (
+    <>
+      <CourseContextProvider>
+        <Homepage />
       </CourseContextProvider>
     </>
   );
