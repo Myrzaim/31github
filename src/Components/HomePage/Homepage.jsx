@@ -91,8 +91,8 @@ const Homepage = () => {
       </ListGroup>
   
     </div>
-    <div className='main-img'>
-      <img src={mainimg} />
+    <div className='hpimg'>
+      <img className='main-img' src={mainimg} />
     </div>
       
     <div className='txt-benefits'>

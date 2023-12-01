@@ -11,7 +11,8 @@ const Kart = ({ obj }) => {
     body
     className="my-2"
     style={{
-      width: '33rem'
+      width: '23rem',
+      height: '24rem'
     }}
   >
     <CardTitle className='kart-num' tag="h1">
@@ -19,12 +20,15 @@ const Kart = ({ obj }) => {
             </CardTitle>
             <CardTitle className='title' tag="h5">
             {obj.title}
-    </CardTitle>
-    <CardText className='kart-txt'>
+            </CardTitle>
+            <div className='kart-txt'>
+    <CardText >
     {obj.info}
-    </CardText>
-            <Button className='btn1'>
-              <img src={kartbtn}></img>
+              </CardText>
+              </div>
+            
+            <Button className='btn1' >
+              <img src={kartbtn} ></img>
       
     </Button>
   </Card>

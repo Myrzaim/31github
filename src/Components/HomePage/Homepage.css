@@ -49,7 +49,7 @@ Button{
     border-radius: 10px;
     color: #262626 !important;
     color: white !important;
-    padding: 20px !important;
+    padding: 12px !important;
     border: none !important;
 }
 .button-white{
@@ -57,25 +57,24 @@ Button{
     color: #262626 !important;
 }
 .div-list{
-    margin-top: 300px;
+    margin-top: 270px;
     border: none;
     border-radius: 10px;
-   margin-left: 7%;
+    margin-left:10%;
 }
 .list-group{
-padding: 50px;
+padding: 10px;
 margin: auto;
 }
 .main-img{
+    width: 90%!important;
+}
+.hpimg{
     text-align: center;
 }
 .txt-benefits {
-    width: 83%;
-    margin-left: 8%;
-    /* width: fit-content; */
-    /* margin-top: 5%;
-    margin-left: 8%;
-    margin-right: 8%; */
+    width: 88%;
+    margin-left: 6%;
     display: flex;
     justify-content: space-between !important;
     align-items: baseline;
@@ -90,7 +89,7 @@ margin: auto;
     font-size: 18px;
 }
 .kart{
-    margin: 2% 7%;
+    margin: 2% 5%;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
