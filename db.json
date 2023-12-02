@@ -1,32 +1,32 @@
 {
   "courses": [
     {
-      "id": 1,
+      "id": "01",
       "title": "Flexible Learning Schedule",
       "info": "Fit your coursework around your existing commitments and obligations."
     },
     {
-      "id": 2,
+      "id": "02",
       "title": "Expert Instruction",
       "info": "Learn from industry experts who have hands-on experience in design and development."
     },
     {
-      "id": 3,
+      "id": "03",
       "title": "Diverse Course Offerings",
       "info": "Explore a wide range of design and development courses covering various topics."
     },
     {
-      "id": 4,
+      "id": "04",
       "title": "Updated Curriculume",
       "info": "Access courses with up-to-date content reflecting the latest trends and industry practices."
     },
     {
-      "id": 5,
+      "id": "05",
       "title": "Practical Projects and Assignments",
       "info": "Develop a portfolio showcasing your skills and abilities to potential employers."
     },
     {
-      "id": 6,
+      "id": "06",
       "title": "Interactive Learning Environment",
       "info": "Collaborate with fellow learners, exchanging ideas and feedback to enhance your understanding."
     }

@@ -15,6 +15,7 @@ import mainimg from '../Image/mainimg.png';
 import Kart from '../Kart/Kart';
 import { useContext, useEffect } from 'react';
 import { courseContext } from '../../Context/CourseContextProvider';
+import KartCourses from '../Kart/KartCourses';
 
 const Homepage = () => {
 
@@ -110,8 +111,21 @@ const Homepage = () => {
       
         <Kart obj={item} />
     )) : null}
+    </div>
+    <div className='txt-benefits'>
+      <div><h1>Our Courses</h1>
+        <p>Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum<br />
+          eget habitasse in velit fringilla feugiat senectus in.</p>
       </div>
-        </> );
+      <div>
+        <Button className='button-white btn-view'>
+          View All
+        </Button>
+      </div>
+    </div>
+  
+  </>);
+  
 };
 
 export default Homepage;

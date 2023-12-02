@@ -2,10 +2,10 @@
     display: absolute;
     width: max-content;
     height: max-content;
-text-align: end;
-/* background-color: #FCFCFD !important; */
+margin-left: 70%;
+background-color: #FCFCFD !important;
 /* margin-top: 1% ; */
-margin-top: 0%;
+margin-top: 0% !important;
 
 }
 .kart-num{
