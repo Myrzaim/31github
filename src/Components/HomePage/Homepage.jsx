@@ -123,6 +123,9 @@ const Homepage = () => {
         </Button>
       </div>
     </div>
+    <div>
+      <KartCourses />
+    </div>
   
   </>);
   

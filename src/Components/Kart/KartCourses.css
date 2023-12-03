@@ -1,0 +1,11 @@
+.main-div{
+    justify-content: space-between;
+    margin: 5% 2%;
+}
+.lil-div{
+    justify-content: space-between;
+    width: 35%;
+}
+p{
+    border: 1px solid black;
+}
