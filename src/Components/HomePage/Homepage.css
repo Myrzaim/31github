@@ -94,8 +94,12 @@ margin: auto;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    flex-wrap: wrap;
-
-    
-   
+    flex-wrap: wrap; 
+}
+.div-kartcourses{
+    margin: 2% 5%; 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap; 
 }

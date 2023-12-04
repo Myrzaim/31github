@@ -1,11 +1,25 @@
 .main-div{
     justify-content: space-between;
-    margin: 5% 2%;
+    margin: 3% 2%;
 }
 .lil-div{
     justify-content: space-between;
-    width: 35%;
+    width: 40%;
 }
-p{
-    border: 1px solid black;
+.p-style{
+    border: 1px solid #F1F1F3;
+    padding: 6px;
+    font-size: 18px;
+    border-radius: 5px;   
+}
+.kardtitle{
+    margin: 0%;
+}
+.btn-get{
+    width: 100%;
+    background-color: #F1F1F3 !important;
+    color: #262626 !important;
+    font-size: 18px !important;
+    font-weight: 500;
+    margin-top: 10% !important;
 }

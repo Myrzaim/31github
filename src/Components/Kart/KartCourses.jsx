@@ -9,40 +9,36 @@ const KartCourses = () => {
             body
             className="my-2"
             style={{
-              width: '30rem',
-              height: '24rem'
+              width: '34rem',
+              height: '40rem',
+              borderRadius:'2%'
             }}
         >
     <CardImg
       alt="Card image cap"
       src="https://picsum.photos/318/180"
       top
-      width="100%"
+            width="100%"
+         
           />
           <div className='d-flex main-div'>
             <div className='d-flex lil-div'>
-              <p>4 weeks</p>
-              <p>beginner</p>
+              <p className='p-style'>4 weeks</p>
+              <p className='p-style'>beginner</p>
             </div>
             <div>
               <p>By John Smith</p>
             </div>
           </div>
     <CardBody>
-      <CardTitle tag="h5">
+      <CardTitle tag="h4" className='kardtitle'>
         Card title
       </CardTitle>
-      <CardSubtitle
-        className="mb-2 text-muted"
-        tag="h6"
-      >
-        Card subtitle
-      </CardSubtitle>
       <CardText>
         This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
       </CardText>
-      <Button>
-        Button
+      <Button className='btn-get'>
+        Get It Now
       </Button>
     </CardBody>
   </Card>    

@@ -12,7 +12,8 @@ const Kart = ({ obj }) => {
     className="my-2"
     style={{
       width: '23rem',
-      height: '24rem'
+      height: '24rem',
+      borderRadius:'2%'
     }}
   >
     <CardTitle className='kart-num' tag="h1">

@@ -123,8 +123,8 @@ const Homepage = () => {
         </Button>
       </div>
     </div>
-    <div>
-      <KartCourses />
+    <div className='div-kartcourses'>
+      <KartCourses /> <KartCourses /> <KartCourses /> <KartCourses />
     </div>
   
   </>);
