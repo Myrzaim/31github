@@ -40,6 +40,46 @@
       "author":"By Michael Adams",
       "title": "Front-End Web Development",
       "info": "Become proficient in front-end web development. Learn HTML, CSS, JavaScript, and popular frameworks like Bootstrap and React. Build interactive and responsive websites."
+    },
+    {
+      "img": "C:/Users/ThinkBook/Desktop/31github/react-redux-app/src/Components/Image/kart2",
+      "duration":"6 Weeks",
+      "level": "Intermediate",
+      "author":"By Emily Johnson",
+      "title": "UI/UX Design",
+      "info": "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques."
+    },
+    {
+      "img": "C:/Users/ThinkBook/Desktop/31github/react-redux-app/src/Components/Image/kart3",
+      "duration":"4 Weeks",
+      "level": "Beginner",
+      "author":"By John Smith",
+      "title": "Web Design Fundamentals",
+      "info": "Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites."
+    },
+    {
+      "img": "C:/Users/ThinkBook/Desktop/31github/react-redux-app/src/Components/Image/kart4",
+      "duration":"8 Weeks",
+      "level": "Intermediate",
+      "author":"By David Brown",
+      "title": "Mobile App Development",
+      "info": "Dive into the world of mobile app development. Learn to build native iOS and Android applications using industry-leading frameworks like Swift and Kotlin."
+    },
+    {
+      "img": "C:/Users/ThinkBook/Desktop/31github/react-redux-app/src/Components/Image/kart5",
+      "duration":"10 Weeks",
+      "level": "Beginner",
+      "author":"By Sarah Thompson",
+      "title": "Graphic Design for Beginners",
+      "info": "Discover the fundamentals of graphic design, including typography, color theory, layout design, and image manipulation techniques. Create visually stunning designs for print and digital media."
+    },
+    {
+      "img": "C:/Users/ThinkBook/Desktop/31github/react-redux-app/src/Components/Image/kart6",
+      "duration":"6 Weeks",
+      "level": "Advance",
+      "author":"By Jennifer Wilson",
+      "title": "Advanced JavaScript",
+      "info": "Take your JavaScript skills to the next level. Explore advanced concepts like closures, prototypes, asynchronous programming, and ES6 features. Build complex applications with confidence."
     }
   ]
 }
