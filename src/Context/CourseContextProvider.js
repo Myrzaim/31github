@@ -4,10 +4,13 @@ import React, { createContext, useReducer } from "react";
 
 export const courseContext = createContext(); // облако
 
-const API = "http://localhost:3030/courses";
+const API = "http://localhost:3030";
+const courseApi = API + "/courses";
+const kartCourseApi = API + "/kart_courses";
 
 const INIT_STATE = {
   courses: null,
+  kart_courses: null,
 };
 
 function reducer(prevState, action) {
@@ -16,6 +19,12 @@ function reducer(prevState, action) {
       return {
         ...prevState,
         courses: action.payload.data,
+        pageTotalCount: Math.ceil(action.payload.headers["x-total-count"] / 6),
+      };
+    case "GET_KART_COURSES":
+      return {
+        ...prevState,
+        kart_courses: action.payload.data,
         pageTotalCount: Math.ceil(action.payload.headers["x-total-count"] / 6),
       };
     default:
@@ -29,8 +38,7 @@ const CourseContextProvider = (props) => {
 
   // read COURSE
   async function readCourses() {
-    console.log("reading courses");
-    const res = await axios(`${API}`);
+    const res = await axios(`${courseApi}`);
 
     dispatch({
       type: "GET_COURSES",
@@ -38,9 +46,20 @@ const CourseContextProvider = (props) => {
     });
   }
 
+  // read KART COURSE
+  async function readKartCourses() {
+    const res = await axios(`${kartCourseApi}`);
+    dispatch({
+      type: "GET_KART_COURSES",
+      payload: res,
+    });
+  }
+
   let cloud = {
     readCourses,
+    readKartCourses,
     courseArr: state.courses,
+    kartCourseArr: state.kart_courses,
   };
 
   return (

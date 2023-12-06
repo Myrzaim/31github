@@ -2,7 +2,9 @@ import React from 'react';
 import { Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Button } from 'reactstrap';
 import './KartCourses.css';
 
-const KartCourses = () => {
+const KartCourses = ({ obj }) => {
+  var imagePath = obj.img;
+  
     return (<>
         <div>
         <Card
@@ -16,27 +18,27 @@ const KartCourses = () => {
         >
     <CardImg
       alt="Card image cap"
-      src="https://picsum.photos/318/180"
+            src ={imagePath} 
       top
             width="100%"
          
           />
           <div className='d-flex main-div'>
             <div className='d-flex lil-div'>
-              <p className='p-style'>4 weeks</p>
-              <p className='p-style'>beginner</p>
+              <p className='p-style'>{obj.duration}s</p>
+              <p className='p-style'>{obj.level}</p>
             </div>
             <div>
-              <p>By John Smith</p>
+              <p>{obj.author}</p>
             </div>
           </div>
     <CardBody>
       <CardTitle tag="h4" className='kardtitle'>
-        Card title
+        {obj.title}
       </CardTitle>
-      <CardText>
-        This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-      </CardText>
+            <CardText>
+              {obj.info}
+            </CardText>
       <Button className='btn-get'>
         Get It Now
       </Button>

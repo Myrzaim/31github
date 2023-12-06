@@ -34,7 +34,7 @@
   ],
   "kart_courses": [
     {
-      "img": "C:/Users/ThinkBook/Desktop/31github/react-redux-app/src/Components/Image/kart1",
+      "img": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fs3.envato.com%2Ffiles%2F366072543%2FJ14-0165%2520copy.jpg&tbnid=0kmTAVDZmBiIiM&vet=12ahUKEwj55dj4m_uCAxUHLRAIHbXpCG0QMyhHegUIARCBAg..i&imgrefurl=https%3A%2F%2Fphotodune.net%2Fitem%2Fclose-up-of-asian-business-woman-work-in-office-typing-on-keyboard%2F35029360&docid=Ng4uPoch5LB6oM&w=590&h=393&q=computer%20typing%20woman&ved=2ahUKEwj55dj4m_uCAxUHLRAIHbXpCG0QMyhHegUIARCBAg",
       "duration":"10 Weeks",
       "level": "Intermediate",
       "author":"By Michael Adams",

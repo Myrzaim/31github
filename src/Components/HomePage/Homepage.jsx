@@ -19,13 +19,13 @@ import KartCourses from '../Kart/KartCourses';
 
 const Homepage = () => {
 
-  const { readCourses, courseArr } = useContext(courseContext);
+  const { readCourses, readKartCourses, courseArr, kartCourseArr } = useContext(courseContext);
 
   useEffect(() => {
     readCourses();
+    readKartCourses();
   }, []);
 
-  console.log(courseArr);
 
   return (<>
     <Header />
@@ -124,7 +124,10 @@ const Homepage = () => {
       </div>
     </div>
     <div className='div-kartcourses'>
-      <KartCourses /> <KartCourses /> <KartCourses /> <KartCourses />
+    {kartCourseArr ? kartCourseArr.map((item)=>(
+      
+      <KartCourses obj={item} />
+  )) : null}
     </div>
   
   </>);
