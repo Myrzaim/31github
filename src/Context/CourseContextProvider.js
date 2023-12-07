@@ -49,11 +49,14 @@ const CourseContextProvider = (props) => {
   // read KART COURSE
   async function readKartCourses() {
     const res = await axios(`${kartCourseApi}`);
+   
     dispatch({
       type: "GET_KART_COURSES",
       payload: res,
     });
+  
   }
+
 
   let cloud = {
     readCourses,
