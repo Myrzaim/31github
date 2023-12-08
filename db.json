@@ -34,7 +34,7 @@
   ],
   "kart_courses": [
     {
-      "img": "C:/Users/ThinkBook/Desktop/31github/react-redux-app/src/Components/Image/kart1.png",
+      "img": "kart1.png",
       "duration":"10 Weeks",
       "level": "Intermediate",
       "author":"By Michael Adams",
@@ -42,7 +42,7 @@
       "info": "Become proficient in front-end web development. Learn HTML, CSS, JavaScript, and popular frameworks like Bootstrap and React. Build interactive and responsive websites."
     },
     {
-      "img": "C:/Users/ThinkBook/Desktop/31github/react-redux-app/src/Components/Image/kart2.png",
+      "img": "kart2.png",
       "duration":"6 Weeks",
       "level": "Intermediate",
       "author":"By Emily Johnson",
@@ -50,7 +50,7 @@
       "info": "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques."
     },
     {
-      "img": "C:/Users/ThinkBook/Desktop/31github/react-redux-app/src/Components/Image/kart3.png",
+      "img": "kart3.png",
       "duration":"4 Weeks",
       "level": "Beginner",
       "author":"By John Smith",
@@ -58,7 +58,7 @@
       "info": "Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites."
     },
     {
-      "img": "C:/Users/ThinkBook/Desktop/31github/react-redux-app/src/Components/Image/kart4.png",
+      "img": "kart4.png",
       "duration":"8 Weeks",
       "level": "Intermediate",
       "author":"By David Brown",
@@ -66,7 +66,7 @@
       "info": "Dive into the world of mobile app development. Learn to build native iOS and Android applications using industry-leading frameworks like Swift and Kotlin."
     },
     {
-      "img": "C:/Users/ThinkBook/Desktop/31github/react-redux-app/src/Components/Image/kart5.png",
+      "img": "kart5.png",
       "duration":"10 Weeks",
       "level": "Beginner",
       "author":"By Sarah Thompson",
@@ -74,7 +74,7 @@
       "info": "Discover the fundamentals of graphic design, including typography, color theory, layout design, and image manipulation techniques. Create visually stunning designs for print and digital media."
     },
     {
-      "img": "C:/Users/ThinkBook/Desktop/31github/react-redux-app/src/Components/Image/kart6.png",
+      "img": "kart6.png",
       "duration":"6 Weeks",
       "level": "Advance",
       "author":"By Jennifer Wilson",

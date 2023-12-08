@@ -1,6 +1,8 @@
 import React from 'react';
 import { Card, CardImg, CardBody, CardTitle, CardText, Button } from 'reactstrap';
 import './KartCourses.css';
+import img from '../Image/kart1.png';
+
 
 const KartCourses = ({ obj }) => {
 
@@ -16,14 +18,13 @@ const KartCourses = ({ obj }) => {
               borderRadius:'2%'
             }}
         >
-    <img
-            src={obj.img} 
-            alt="Card image cap"
-            className='w-50'
-    
-         
-         
-          />
+          <div className='img_kartcourses'>
+    <img 
+            src={require(`../Image/${obj.img}`)} 
+              alt="Card image cap"
+              className='kart_img'
+            />
+            </div>
           <div className='d-flex main-div'>
             <div className='d-flex lil-div'>
               <p className='p-style'>{obj.duration}</p>

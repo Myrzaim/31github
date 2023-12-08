@@ -4,11 +4,11 @@
 }
 .lil-div{
     justify-content: space-between;
-    width: 40%;
+    width: 42%;
 }
 .p-style{
     border: 1px solid #F1F1F3;
-    padding: 6px;
+    padding: 5px;
     font-size: 18px;
     border-radius: 5px;   
 }
@@ -22,4 +22,11 @@
     font-size: 18px !important;
     font-weight: 500;
     margin-top: 10% !important;
+}
+.img_kartcourses{
+    width: 100%;
+    height: 380px;
+}
+.kart_img{
+    width: 100%;
 }
