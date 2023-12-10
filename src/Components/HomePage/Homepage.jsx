@@ -16,6 +16,7 @@ import Kart from "../Kart/Kart";
 import { useContext, useEffect } from "react";
 import { courseContext } from "../../Context/CourseContextProvider";
 import KartCourses from "../Kart/KartCourses";
+import KartPost from "../Kart/KartPost";
 
 const Homepage = () => {
   const { readCourses, readKartCourses, courseArr, kartCourseArr } =
@@ -122,6 +123,7 @@ const Homepage = () => {
           <Button className="button-white btn-view">View All</Button>
         </div>
       </div>
+      <KartPost />
     </>
   );
 };
