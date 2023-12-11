@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardImg, CardBody, CardTitle, CardText, Button } from 'reactstrap';
 import './KartCourses.css';
-import img from '../Image/kart1.png';
+
 
 
 const KartCourses = ({ obj }) => {

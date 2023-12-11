@@ -19,12 +19,13 @@ import KartCourses from "../Kart/KartCourses";
 import KartPost from "../Kart/KartPost";
 
 const Homepage = () => {
-  const { readCourses, readKartCourses, courseArr, kartCourseArr } =
+  const { readCourses, readKartCourses, readKartPostes, courseArr, kartCourseArr, kartPostArr} =
     useContext(courseContext);
 
   useEffect(() => {
     readCourses();
     readKartCourses();
+    readKartPostes();
   }, []);
 
   return (
@@ -123,7 +124,9 @@ const Homepage = () => {
           <Button className="button-white btn-view">View All</Button>
         </div>
       </div>
-      <KartPost />
+      <div className="div-kartcourses">
+        {kartPostArr ? kartPostArr.map((item) => <KartPost obj={item} />) : null}
+        </div>
     </>
   );
 };

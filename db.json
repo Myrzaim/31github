@@ -30,57 +30,78 @@
       "title": "Interactive Learning Environment",
       "info": "Collaborate with fellow learners, exchanging ideas and feedback to enhance your understanding."
     }
-
   ],
   "kart_courses": [
     {
       "img": "kart1.png",
-      "duration":"10 Weeks",
+      "duration": "10 Weeks",
       "level": "Intermediate",
-      "author":"By Michael Adams",
+      "author": "By Michael Adams",
       "title": "Front-End Web Development",
       "info": "Become proficient in front-end web development. Learn HTML, CSS, JavaScript, and popular frameworks like Bootstrap and React. Build interactive and responsive websites."
     },
     {
       "img": "kart2.png",
-      "duration":"6 Weeks",
+      "duration": "6 Weeks",
       "level": "Intermediate",
-      "author":"By Emily Johnson",
+      "author": "By Emily Johnson",
       "title": "UI/UX Design",
       "info": "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques."
     },
     {
       "img": "kart3.png",
-      "duration":"4 Weeks",
+      "duration": "4 Weeks",
       "level": "Beginner",
-      "author":"By John Smith",
+      "author": "By John Smith",
       "title": "Web Design Fundamentals",
       "info": "Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites."
     },
     {
       "img": "kart4.png",
-      "duration":"8 Weeks",
+      "duration": "8 Weeks",
       "level": "Intermediate",
-      "author":"By David Brown",
+      "author": "By David Brown",
       "title": "Mobile App Development",
       "info": "Dive into the world of mobile app development. Learn to build native iOS and Android applications using industry-leading frameworks like Swift and Kotlin."
     },
     {
       "img": "kart5.png",
-      "duration":"10 Weeks",
+      "duration": "10 Weeks",
       "level": "Beginner",
-      "author":"By Sarah Thompson",
+      "author": "By Sarah Thompson",
       "title": "Graphic Design for Beginners",
       "info": "Discover the fundamentals of graphic design, including typography, color theory, layout design, and image manipulation techniques. Create visually stunning designs for print and digital media."
     },
     {
       "img": "kart6.png",
-      "duration":"6 Weeks",
+      "duration": "6 Weeks",
       "level": "Advance",
-      "author":"By Jennifer Wilson",
+      "author": "By Jennifer Wilson",
       "title": "Advanced JavaScript",
       "info": "Take your JavaScript skills to the next level. Explore advanced concepts like closures, prototypes, asynchronous programming, and ES6 features. Build complex applications with confidence."
     }
+  ],
+  "kart_post": [
+    {
+      "img": "photo1.png",
+      "author": "Sarah L",
+      "info": "The web design course provided a solid foundation for me. The instructors were knowledgeable and supportive, and the interactive learning environment was engaging. I highly recommend it!"
+    },
+    {
+      "img": "photo2.png",
+      "author": "Jason M",
+      "info": "The UI/UX design course exceeded my expectations. The instructor's expertise and practical assignments helped me improve my design skills. I feel more confident in my career now. Thank you!"
+    },
+    {
+      "img": "photo3.png",
+      "author": "Emily R",
+      "info": "The mobile app development course was fantastic! The step-by-step tutorials and hands-on projects helped me grasp the concepts easily. I'm now building my own app. Great course!"
+    },
+    {
+      "img": "photo4.png",
+      "author": "Michael K",
+      "info": "I enrolled in the graphic design course as a beginner, and it was the perfect starting point. The instructor's guidance and feedback improved my design abilities significantly. I'm grateful for this course!"
+    }
+    
   ]
 }
-  

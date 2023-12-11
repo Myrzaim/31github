@@ -1,0 +1,21 @@
+.kartpost{
+    justify-content: space-between;
+    font-size: 18px !important;
+    margin-top: 15%;
+    color: #262626 !important;
+}
+.karttxt{
+    margin-top: 15px;
+    font-weight: 600;
+}
+.post_img{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+.post_btn{
+    background-color: #F1F1F3 !important;
+    color: #262626 !important;
+    font-weight: 600;
+    margin-top: 0 !important;
+}
