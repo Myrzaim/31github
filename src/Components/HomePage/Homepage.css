@@ -86,8 +86,8 @@ margin: auto;
 }
 .btn-view{
     color: #262626;
-    font-weight: 700!important;
-    font-size: 18px;
+    font-weight: 600!important;
+    font-size: 18px !important;
 }
 .kart{
     margin: 2% 5%;
@@ -102,4 +102,13 @@ margin: auto;
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap; 
+}
+.prising_div{
+    margin-right: 15px;
+    background-color: #FF9500!important;
+    color: white !important;
+    margin-top: 30px;
+}
+.btn-div{
+margin: auto;
 }

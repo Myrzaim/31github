@@ -19,8 +19,14 @@ import KartCourses from "../Kart/KartCourses";
 import KartPost from "../Kart/KartPost";
 
 const Homepage = () => {
-  const { readCourses, readKartCourses, readKartPostes, courseArr, kartCourseArr, kartPostArr} =
-    useContext(courseContext);
+  const {
+    readCourses,
+    readKartCourses,
+    readKartPostes,
+    courseArr,
+    kartCourseArr,
+    kartPostArr,
+  } = useContext(courseContext);
 
   useEffect(() => {
     readCourses();
@@ -116,7 +122,8 @@ const Homepage = () => {
           <h1>Our Testimonials</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget
-            elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum<br/>
+            elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum
+            <br />
             eget habitasse in velit fringilla feugiat senectus in.
           </p>
         </div>
@@ -125,8 +132,24 @@ const Homepage = () => {
         </div>
       </div>
       <div className="div-kartcourses">
-        {kartPostArr ? kartPostArr.map((item) => <KartPost obj={item} />) : null}
+        {kartPostArr
+          ? kartPostArr.map((item) => <KartPost obj={item} />)
+          : null}
+      </div>
+      <div className="txt-benefits">
+        <div>
+          <h1>Our Pricing</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget
+            elit id imperdiet et. Cras eu sit dignissim lorem<br/> nibh et. Ac cum
+            eget habitasse in velit fringilla feugiat senectus in.
+          </p>
         </div>
+        <div className="d-flex btn-div">
+          <Button className="button-white btn-view prising_div">Monthly</Button>
+          <Button className="button-white btn-view">Yearly</Button>
+        </div>
+      </div>
     </>
   );
 };
