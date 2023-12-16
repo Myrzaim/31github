@@ -159,7 +159,7 @@ const Homepage = () => {
             <p className="price_item_time">/month</p>
           </div>
           <p className="price_availabilities">Available Features</p>
-          <div className="price_availability_item">
+          <div className="price_availability_item price_div">
             <svg
               className="price_availability_item_svg"
               xmlns="http://www.w3.org/2000/svg"
