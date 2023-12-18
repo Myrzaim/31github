@@ -429,7 +429,9 @@ const Homepage = () => {
         </div>
      
       </div>
-      <AskKart/>
+      <div className="ask_div">
+        <AskKart />
+        </div>
     </>
   );
 };
