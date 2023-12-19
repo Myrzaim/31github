@@ -1,4 +1,31 @@
+.ask{
+    background-color: white;
+    border-radius: 5px;
+}
+.h1_style{
+    font-size: 48px;
+}
 .first_div{
-    width: 10%;
+    width: 40%;
     text-align: center;
+    margin:5% 2%; 
+}
+.second_div{
+    width: 40%;
+    text-align: center;
+    margin:5% 2%;   
+}
+.price_availability_item {
+    display: flex;
+padding: 12px;
+align-items: flex-start;
+/* gap: 8px; */
+align-self: stretch;
+border-radius: 6px;
+border: 1px solid var(--White-95, #F1F1F3);
+
+}
+.price_availability_item_txt{
+    font-size: 20px;
+    font-weight: 400;
 }
