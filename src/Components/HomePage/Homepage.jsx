@@ -18,6 +18,7 @@ import { courseContext } from "../../Context/CourseContextProvider";
 import KartCourses from "../Kart/KartCourses";
 import KartPost from "../Kart/KartPost";
 import AskKart from "../Kart/AskKart";
+import Footer from "../Footer/Footer";
 
 const Homepage = () => {
   const {
@@ -431,7 +432,10 @@ const Homepage = () => {
       </div>
       <div className="ask_div">
         <AskKart />
-        </div>
+      </div>
+      <div>
+        <Footer/>
+      </div>
     </>
   );
 };

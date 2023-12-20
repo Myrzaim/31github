@@ -1,0 +1,11 @@
+.navLogo {
+    font-size: 18px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: orange;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
